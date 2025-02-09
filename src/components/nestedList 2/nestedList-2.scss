@@ -1,0 +1,51 @@
+.nestedList {
+  button {
+    background-color: var(--main-color);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+
+    &:hover,
+    &:active {
+      background-color: #942c2c !important;
+    }
+  }
+}
+
+.modal-content {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.modal-body {
+  position: relative;
+  padding: 0 !important;
+
+  .list-group-item {
+    cursor: pointer;
+  }
+
+  .subMenu {
+    position: absolute;
+    left: 72%;
+    top: 50%;
+    width: fit-content;
+    white-space: nowrap;
+    transform: translateY(-50%);
+  }
+}
+
+.modal-footer {
+  button {
+    background-color: var(--background-color) !important;
+    color: var(--main-font-color);
+    border-color: var(--background-color) !important;
+
+    &:hover,
+    &:active {
+      background-color: #d4d4d3 !important;
+      color: var(--main-font-color) !important;
+    }
+  }
+}

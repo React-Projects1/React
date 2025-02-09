@@ -1,0 +1,20 @@
+.widget {
+    .custom-card {
+        .card {
+            height: 100%;
+            border: 1px solid var(--border-color) !important;
+            color: var(--main-font-color);
+            box-shadow: 1px 1px 5px 0px #00000040;
+
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .row{
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        gap: 20px !important;
+    }
+}

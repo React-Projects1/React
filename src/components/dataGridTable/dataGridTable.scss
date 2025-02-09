@@ -1,0 +1,59 @@
+.table {
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+
+    p {
+        margin-bottom: 0 !important;
+    }
+
+    .MuiDataGrid-root {
+        border-bottom: 1px solid var(--border-color);
+
+    }
+
+    .MuiDataGrid-filler {
+        display: none !important;
+    }
+
+    .MuiDataGrid-footerContainer {
+        display: none !important;
+    }
+
+
+    .page-item {
+        .page-link {
+            background-color: transparent !important;
+            border: 0 !important;
+            color: var(--main-font-color);
+        }
+    }
+
+    .css-8uzxat-MuiSvgIcon-root-MuiPaginationItem-icon {
+        color: var(--main-color) !important;
+    }
+
+    .MuiDataGrid-cell {
+        border: none !important;
+        outline: none !important;
+    }
+
+    .actionBtn {
+        svg {
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .edit {
+            &:hover {
+                color: #0d50b4 !important;
+            }
+        }
+
+        .delete {
+            &:hover {
+                color: #b42c39 !important;
+            }
+        }
+    }
+
+}

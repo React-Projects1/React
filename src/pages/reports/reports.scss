@@ -1,0 +1,53 @@
+.reports {
+    .content {
+        p,a {
+            color: var(--main-color);
+
+            &:hover {
+                color: var(--main-color-hover);
+                cursor: pointer;
+            }
+        }
+
+        .row {
+            button {
+                border: 1px solid var(--border-color);
+                color: var(--third-font-color);
+            }
+
+            .search {
+                border: 1px solid var(--border-color);
+                border-radius: 6px;
+                padding-left: 8px;
+                color: var(--third-font-color);
+
+                input {
+                    border: none;
+                    padding: 0 6px 0 6px;
+                    &:focus{
+                        outline: none !important;
+                        border: none !important;
+                    }
+                    
+                }
+            }
+
+        }
+
+        .filter {
+            position: relative;
+
+            &::after {
+                content: '';
+                position: absolute;
+                top: -12%;
+                right: -10%;
+                width: 13px;
+                height: 13px;
+                border-radius: 50px;
+                background-color: var(--main-color);
+            }
+        }
+    }
+
+}

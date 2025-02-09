@@ -1,0 +1,30 @@
+#selectColors {
+    .react-select__control {
+        cursor: pointer !important;
+    }
+
+    .react-select__menu {
+        padding: 15px;
+        border: 1px solid var(--border-color);
+
+        .react-select__menu-list {
+            display: flex;
+            justify-content: space-evenly !important;
+            flex-wrap: wrap;
+            overflow: hidden;
+            height: 150px !important;
+            gap: 12px;
+        }
+    }
+
+    .react-select__option {
+        width: 25px;
+        height: 25px;
+        color: transparent !important;
+        border-radius: 5px;
+        border: 1px solid var(--border-color) !important;
+        cursor: pointer;
+    }
+  
+    
+}

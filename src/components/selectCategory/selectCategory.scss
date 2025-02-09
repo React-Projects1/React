@@ -1,0 +1,27 @@
+.dropdown {
+    button {
+        background-color: transparent !important;
+        color: var(--main-font-color) !important;
+        border-color: var(--border-color) !important;
+    }
+
+    .dropdown-toggle {
+        width: 100% !important;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .dropdown-toggle::after{
+        display: none !important;
+    }
+    .dropdown-item{
+        transform-style: preserve-3d; 
+        .arrowLeft{
+            transform: rotate(90deg);
+        }
+        .arrowRight{
+            transform: rotate(-90deg);
+        }
+    }
+
+}

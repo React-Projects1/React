@@ -1,0 +1,24 @@
+.nestedList {
+    width: fit-content;
+    position: relative;
+
+    li{
+        cursor: pointer;
+    }
+    ul{
+        background-color: var(--background-color);
+        border-radius: 5px; 
+    }
+  
+    .menu {
+      .subul {
+        position: absolute;
+        top: 35%; 
+        left: 100%;
+        z-index: 1;
+        width: auto;
+        white-space: nowrap; 
+      }
+    }
+  }
+  

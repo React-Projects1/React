@@ -1,0 +1,45 @@
+.dropdownInGraph {
+    .info {
+        display: none !important;
+    }
+
+    a {
+        color: var(--main-color);
+    }
+
+    p {
+        color: var(--main-font-color);
+    }
+
+    .dropdown {
+        width: fit-content;
+        box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2509803922);
+
+        .dropdown-toggle {
+            border: none !important;
+            outline: none !important;
+        }
+
+        img {
+            transform: rotate(-90deg);
+        }
+
+        button {
+            color: var(--main-color) !important;
+        }
+
+        .dropdown-menu {
+            box-shadow: 0px 4px 4px 0px #00000040;
+            border: none !important;
+
+            .dropdown-item {
+                color: var(--dropdown-item-color);
+
+                &:focus {
+                    background-color: #f8f9fa !important;
+                }
+            }
+
+        }
+    }
+}

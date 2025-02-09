@@ -1,0 +1,120 @@
+.logo-section {
+    font-family: Niconne !important;
+    color: var(--main-color) !important;
+    text-align: center !important;
+
+
+    h4 {
+        font-size: 40px;
+    }
+}
+
+.sidebar {
+    background-color: var(--background-color) !important;
+    // box-shadow: 0px 1px 20px 4px #00000040;
+    box-shadow: 1px 1px 10px 1px #00000040;
+    border-top-right-radius: 10px;
+    width: 230px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 3;
+}
+
+.links-section {
+    height: 100%;
+    align-items: center;
+
+    a {
+        display: flex !important;
+        align-items: center !important;
+
+        &:hover {
+            background-color: var(--background-hover-color);
+        }
+    }
+
+    p {
+        color: var(--main-font-color);
+    }
+}
+
+.logout-section {
+    a {
+        display: flex !important;
+        align-items: center !important;
+    }
+
+    p {
+        color: var(--main-color) !important;
+        font-weight: 600;
+        font-size: 18px;
+    }
+}
+
+[dir="rtl"] .sidebar {
+    right: 0;
+}
+
+.offcanvas {
+    background-color: var(--background-color) !important;
+    width: 100vw !important;
+}
+
+.btnToggle {
+    background-color: transparent !important;
+    color: var(--main-font-color) !important;
+    border: none !important;
+}
+
+.offcanvas-header {
+    button {
+        position: relative !important;
+        z-index: 5 !important;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .sidebar {
+        width: 100vw;
+        background-color: transparent !important;
+    }
+
+    .links-section {
+        a {
+            width: fit-content !important;
+        }
+
+        img {
+            width: 20% !important;
+        }
+
+        .links-section-nav {
+            gap: 30px !important;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100vw;
+        background-color: transparent !important;
+
+    }
+
+    .links-section {
+        a {
+            width: fit-content !important;
+        }
+
+        img {
+            width: 20% !important;
+        }
+
+        .links-section-nav {
+            gap: 35px !important;
+        }
+    }
+}
